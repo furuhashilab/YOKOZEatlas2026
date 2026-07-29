@@ -1,4 +1,4 @@
-# YOKOZEatlas2026
+# YOKOZE Atlas 2026
 埼玉県秩父郡横瀬町のオープンな汎用デジタル地図帳プロジェクト
 
 ## 趣旨
@@ -11,7 +11,13 @@
 ## 基本方針
 * 収集・再配布するのはすべてオープンデータのみとする
 * Webブラウザのみで閲覧・利用できるようにする
-* 毎年データの更新を行う
+* 毎年データの更新を行う（リポジトリは毎年 Fork する）
+
+## 基本データ構成
+* YOKOZE Atlas
+  - YOKOZE Spatial Data Infrastructure(YSDI)
+  - MORIGAWA 流域 Maps
+  - DRONEBIRD 防災減災 Maps
 
 
 ## 連携プロジェクト
