@@ -15,9 +15,9 @@
 
 ## 基本データ構成
 * YOKOZE Atlas
-  - YOKOZE Spatial Data Infrastructure(YSDI)
-  - MORIGAWA 流域 Maps
-  - DRONEBIRD 防災減災 Maps
+  - [YOKOZE Spatial Data Infrastructure(YSDI)](https://github.com/furuhashilab/YOKOZEatlas2026/issues/4)
+  - [MORIGAWA 流域 Maps](https://github.com/furuhashilab/YOKOZEatlas2026/issues/3)
+  - [DRONEBIRD 防災減災 Maps](https://github.com/furuhashilab/YOKOZEatlas2026/issues/5)
 
 
 ## 連携プロジェクト
