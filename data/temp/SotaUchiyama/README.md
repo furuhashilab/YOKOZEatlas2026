@@ -1,0 +1,1 @@
+SotaUchiyama用格納フォルダ
