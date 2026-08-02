@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+}
+
+#map {
+  background: #dbe4e8;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(255, 255, 255, 0.25);
+  border-top-color: #f59e0b;
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.tab-btn {
+  color: #64748b;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.tab-btn.active-tab {
+  color: #b45309;
+  border-bottom-color: #f59e0b;
+}
+
+#sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+#sidebar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.maplibregl-popup-content {
+  font-size: 12.5px;
+  line-height: 1.5;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.popup-title {
+  font-weight: 700;
+  color: #b45309;
+  margin-bottom: 4px;
+  font-size: 13px;
+}
+
+.popup-row {
+  display: flex;
+  gap: 4px;
+}
+
+.popup-row .label {
+  color: #64748b;
+  min-width: 62px;
+}
+
+.popup-tags {
+  margin-top: 6px;
+  max-height: 120px;
+  overflow-y: auto;
+  background: #f8fafc;
+  border-radius: 4px;
+  padding: 4px 6px;
+  font-family: ui-monospace, monospace;
+  font-size: 11px;
+  white-space: pre-wrap;
+}
+
+/* Tabulator theme tweaks */
+.tabulator {
+  font-size: 12.5px;
+  border: none;
+}
+.tabulator-header {
+  background: #f1f5f9;
+}

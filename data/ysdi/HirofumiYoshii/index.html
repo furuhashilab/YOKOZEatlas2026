@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>埼玉県 熊出没情報マップ</title>
+
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- MapLibre GL JS -->
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+
+<!-- Tabulator -->
+<link href="https://unpkg.com/tabulator-tables@5.6.1/dist/css/tabulator.min.css" rel="stylesheet" />
+<script src="https://unpkg.com/tabulator-tables@5.6.1/dist/js/tabulator.min.js"></script>
+
+<!-- Lucide Icons -->
+<script src="https://unpkg.com/lucide@0.462.0/dist/umd/lucide.min.js"></script>
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-slate-100 text-slate-800 h-screen flex flex-col overflow-hidden">
+
+  <!-- Header -->
+  <header class="flex items-center justify-between px-4 py-2 bg-slate-900 text-white shrink-0 shadow-md z-30">
+    <div class="flex items-center gap-2">
+      <i data-lucide="paw-print" class="w-6 h-6 text-amber-400"></i>
+      <h1 class="text-lg font-bold tracking-wide">埼玉県 熊出没情報マップ</h1>
+      <span class="text-xs text-slate-400 hidden md:inline">過去5年間 / 埼玉県公式データ（ツキノワグマ出没マップ）</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <span id="dataStatus" class="text-xs text-slate-300"></span>
+      <button id="reloadBtn" class="flex items-center gap-1 bg-amber-500 hover:bg-amber-400 text-slate-900 font-semibold text-sm px-3 py-1.5 rounded-md transition">
+        <i data-lucide="refresh-cw" class="w-4 h-4"></i>
+        <span>データ取得</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="flex flex-1 min-h-0">
+
+    <!-- Sidebar -->
+    <aside class="w-72 shrink-0 bg-white border-r border-slate-200 overflow-y-auto p-4 space-y-6" id="sidebar">
+
+      <section>
+        <h2 class="flex items-center gap-1.5 text-sm font-bold text-slate-700 mb-2">
+          <i data-lucide="calendar-range" class="w-4 h-4 text-amber-500"></i> 期間フィルター
+        </h2>
+        <div class="space-y-2 text-sm">
+          <label class="block text-xs text-slate-500">開始日</label>
+          <input type="date" id="dateFrom" class="w-full border border-slate-300 rounded px-2 py-1 text-sm" />
+          <label class="block text-xs text-slate-500">終了日</label>
+          <input type="date" id="dateTo" class="w-full border border-slate-300 rounded px-2 py-1 text-sm" />
+        </div>
+      </section>
+
+      <section>
+        <h2 class="flex items-center gap-1.5 text-sm font-bold text-slate-700 mb-2">
+          <i data-lucide="leaf" class="w-4 h-4 text-amber-500"></i> 季節フィルター
+        </h2>
+        <div class="grid grid-cols-2 gap-1 text-sm" id="seasonFilter">
+          <label class="flex items-center gap-1"><input type="checkbox" value="spring" checked class="season-cb"> 春(3-5月)</label>
+          <label class="flex items-center gap-1"><input type="checkbox" value="summer" checked class="season-cb"> 夏(6-8月)</label>
+          <label class="flex items-center gap-1"><input type="checkbox" value="autumn" checked class="season-cb"> 秋(9-11月)</label>
+          <label class="flex items-center gap-1"><input type="checkbox" value="winter" checked class="season-cb"> 冬(12-2月)</label>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="flex items-center gap-1.5 text-sm font-bold text-slate-700 mb-2">
+          <i data-lucide="calendar-days" class="w-4 h-4 text-amber-500"></i> 月別フィルター
+        </h2>
+        <div class="grid grid-cols-4 gap-1 text-xs" id="monthFilter"></div>
+        <div class="flex gap-2 mt-1">
+          <button id="monthAll" class="text-xs text-amber-600 underline">全選択</button>
+          <button id="monthNone" class="text-xs text-amber-600 underline">全解除</button>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="flex items-center gap-1.5 text-sm font-bold text-slate-700 mb-2">
+          <i data-lucide="clock" class="w-4 h-4 text-amber-500"></i> 時間帯フィルター
+        </h2>
+        <div class="space-y-1 text-sm" id="timeOfDayFilter">
+          <label class="flex items-center gap-1"><input type="checkbox" value="morning" checked class="tod-cb"> 朝 (5:00-10:00)</label>
+          <label class="flex items-center gap-1"><input type="checkbox" value="daytime" checked class="tod-cb"> 昼 (10:00-16:00)</label>
+          <label class="flex items-center gap-1"><input type="checkbox" value="evening" checked class="tod-cb"> 夕方 (16:00-19:00)</label>
+          <label class="flex items-center gap-1"><input type="checkbox" value="night" checked class="tod-cb"> 夜間 (19:00-5:00)</label>
+          <label class="flex items-center gap-1"><input type="checkbox" value="unknown" checked class="tod-cb"> 不明</label>
+        </div>
+        <div class="mt-2">
+          <label class="block text-xs text-slate-500 mb-1">24時間スライダー（範囲）</label>
+          <div class="flex items-center gap-2 text-xs">
+            <input type="range" id="hourFrom" min="0" max="24" value="0" class="w-full" />
+            <span id="hourFromLabel" class="w-10 text-right">0時</span>
+          </div>
+          <div class="flex items-center gap-2 text-xs">
+            <input type="range" id="hourTo" min="0" max="24" value="24" class="w-full" />
+            <span id="hourToLabel" class="w-10 text-right">24時</span>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="flex items-center gap-1.5 text-sm font-bold text-slate-700 mb-2">
+          <i data-lucide="layers" class="w-4 h-4 text-amber-500"></i> 表示設定
+        </h2>
+        <label class="flex items-center gap-1 text-sm">
+          <input type="checkbox" id="autoLayerToggle" checked>
+          ズーム連動でヒートマップ/ポイント切替
+        </label>
+        <label class="flex items-center gap-1 text-sm mt-1">
+          <input type="checkbox" id="sampleDataToggle">
+          サンプルデータで動作確認（デモ用・実データではありません）
+        </label>
+      </section>
+
+      <section>
+        <button id="resetFilterBtn" class="w-full flex items-center justify-center gap-1 border border-slate-300 hover:bg-slate-100 text-sm py-1.5 rounded-md">
+          <i data-lucide="rotate-ccw" class="w-4 h-4"></i> フィルターをリセット
+        </button>
+      </section>
+    </aside>
+
+    <!-- Main -->
+    <main class="flex-1 flex flex-col min-w-0">
+
+      <!-- Map -->
+      <div class="relative flex-1 min-h-[240px]">
+        <div id="map" class="absolute inset-0"></div>
+        <div id="loadingOverlay" class="absolute inset-0 bg-slate-900/60 flex flex-col items-center justify-center text-white gap-3 z-20">
+          <div class="spinner"></div>
+          <p id="loadingText" class="text-sm">埼玉県公式データを取得しています...</p>
+        </div>
+        <div id="mapStatCard" class="absolute top-3 left-3 bg-white/95 rounded-lg shadow-md px-3 py-2 text-xs space-y-0.5 z-10">
+          <div class="font-bold text-slate-700">表示中の出没件数: <span id="statCount" class="text-amber-600 text-sm">0</span> 件</div>
+          <div class="text-slate-500">レイヤー: <span id="statLayer">-</span></div>
+        </div>
+      </div>
+
+      <!-- Bottom panel -->
+      <div class="h-[38%] min-h-[220px] shrink-0 bg-white border-t border-slate-200 flex flex-col">
+        <div class="flex items-center border-b border-slate-200 px-2 shrink-0">
+          <button data-tab="list" class="tab-btn active-tab px-4 py-2 text-sm font-semibold">
+            <i data-lucide="table" class="w-4 h-4 inline-block mr-1"></i>出没データ一覧
+          </button>
+          <button data-tab="agg" class="tab-btn px-4 py-2 text-sm font-semibold">
+            <i data-lucide="bar-chart-3" class="w-4 h-4 inline-block mr-1"></i>市町村別集計
+          </button>
+          <div class="flex-1"></div>
+          <div class="flex items-center gap-2 py-1.5" id="listActions">
+            <button id="downloadGeoJson" class="flex items-center gap-1 text-xs bg-emerald-600 hover:bg-emerald-500 text-white px-2.5 py-1.5 rounded">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> GeoJSON
+            </button>
+            <button id="downloadCsv" class="flex items-center gap-1 text-xs bg-sky-600 hover:bg-sky-500 text-white px-2.5 py-1.5 rounded">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> CSV
+            </button>
+          </div>
+          <div class="flex items-center gap-2 py-1.5 hidden" id="aggActions">
+            <button id="downloadAggCsv" class="flex items-center gap-1 text-xs bg-sky-600 hover:bg-sky-500 text-white px-2.5 py-1.5 rounded">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> 集計CSV
+            </button>
+          </div>
+        </div>
+        <div class="flex-1 min-h-0 relative">
+          <div id="listTable" class="tab-panel absolute inset-0"></div>
+          <div id="aggTable" class="tab-panel absolute inset-0 hidden"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/saitama-api.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/table.js"></script>
+  <script src="js/app.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>
