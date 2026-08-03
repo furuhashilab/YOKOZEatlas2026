@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-08-03T05:16:36Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699534118",
+        "barrier": "guard_rail"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.1033251,
+            35.9866521
+          ],
+          [
+            139.1032574,
+            35.9865322
+          ]
+        ]
+      },
+      "id": "way/699534118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/709173942",
+        "barrier": "guard_rail",
+        "highway": "steps"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.1006549,
+            35.9876658
+          ],
+          [
+            139.100715,
+            35.9876046
+          ],
+          [
+            139.1007361,
+            35.9874709
+          ]
+        ]
+      },
+      "id": "way/709173942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/709173943",
+        "barrier": "guard_rail",
+        "highway": "path"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.1002936,
+            35.9878993
+          ],
+          [
+            139.1003967,
+            35.9878497
+          ],
+          [
+            139.1004476,
+            35.9878223
+          ],
+          [
+            139.1005184,
+            35.9877739
+          ],
+          [
+            139.1005961,
+            35.9877207
+          ],
+          [
+            139.1006549,
+            35.9876658
+          ]
+        ]
+      },
+      "id": "way/709173943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/709173944",
+        "barrier": "guard_rail",
+        "highway": "path"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.099901,
+            35.9881001
+          ],
+          [
+            139.0999831,
+            35.9880618
+          ],
+          [
+            139.1001495,
+            35.9879917
+          ]
+        ]
+      },
+      "id": "way/709173944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/709173945",
+        "barrier": "guard_rail",
+        "highway": "steps"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.1001495,
+            35.9879917
+          ],
+          [
+            139.1001784,
+            35.9879788
+          ]
+        ]
+      },
+      "id": "way/709173945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/709173946",
+        "barrier": "guard_rail",
+        "highway": "path"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.1001784,
+            35.9879788
+          ],
+          [
+            139.1002702,
+            35.987936
+          ],
+          [
+            139.1002702,
+            35.9879094
+          ],
+          [
+            139.1002936,
+            35.9878993
+          ]
+        ]
+      },
+      "id": "way/709173946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1079359249",
+        "barrier": "guard_rail",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.1020406,
+            35.9867038
+          ],
+          [
+            139.101989,
+            35.9867345
+          ],
+          [
+            139.1017859,
+            35.9868571
+          ],
+          [
+            139.1015276,
+            35.9870101
+          ],
+          [
+            139.1013498,
+            35.9871184
+          ],
+          [
+            139.1012862,
+            35.987162
+          ],
+          [
+            139.101224,
+            35.9872087
+          ],
+          [
+            139.1011722,
+            35.9872526
+          ],
+          [
+            139.1011323,
+            35.9872964
+          ],
+          [
+            139.1010729,
+            35.9873817
+          ],
+          [
+            139.1009795,
+            35.9875283
+          ],
+          [
+            139.1009038,
+            35.9876454
+          ]
+        ]
+      },
+      "id": "way/1079359249"
+    }
+  ]
+}
