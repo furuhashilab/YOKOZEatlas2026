@@ -1,3 +1,5 @@
+<img width="480" height="479" alt="YOKOZEatlan_logo_sqquare" src="https://github.com/user-attachments/assets/6d70ea15-5054-4248-bdc4-f8530320f390" />
+
 # YOKOZE Atlas 2026
 埼玉県秩父郡横瀬町のオープンな汎用デジタル地図帳プロジェクト
 
