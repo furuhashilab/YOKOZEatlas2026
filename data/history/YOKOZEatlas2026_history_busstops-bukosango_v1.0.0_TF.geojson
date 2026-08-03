@@ -1,0 +1,779 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-08-03T02:15:06Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5801197654",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "日向山公会堂",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1353269,
+          35.9854652
+        ]
+      },
+      "id": "node/5801197654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5801220553",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "3区コミュニティ広場",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.111288,
+          35.9759347
+        ]
+      },
+      "id": "node/5801220553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6590255489",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "横瀬駅",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0981103,
+          35.9854267
+        ]
+      },
+      "id": "node/6590255489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6590255490",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "横瀬町役場",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0999118,
+          35.987452
+        ]
+      },
+      "id": "node/6590255490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598096320",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "松枝",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1536192,
+          35.9486997
+        ]
+      },
+      "id": "node/6598096320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598124967",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "長渕",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1595372,
+          35.9598271
+        ]
+      },
+      "id": "node/6598124967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598124968",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "中井橋",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1614127,
+          35.9687203
+        ]
+      },
+      "id": "node/6598124968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598194825",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "赤谷",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1536179,
+          35.974428
+        ]
+      },
+      "id": "node/6598194825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598194826",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "芦ヶ久保郵便局",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1367135,
+          35.9778955
+        ]
+      },
+      "id": "node/6598194826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598194827",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "活性化センター",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1345607,
+          35.9775474
+        ]
+      },
+      "id": "node/6598194827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598194828",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "芦ヶ久保駅",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1368949,
+          35.9769561
+        ]
+      },
+      "id": "node/6598194828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598402146",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "里宮前",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1089074,
+          35.9742052
+        ]
+      },
+      "id": "node/6598402146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598402147",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "川連製作所",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1084747,
+          35.9713816
+        ]
+      },
+      "id": "node/6598402147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598402148",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "横瀬石油",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1044629,
+          35.970257
+        ]
+      },
+      "id": "node/6598402148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598402149",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "3区公会堂",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1076599,
+          35.9771815
+        ]
+      },
+      "id": "node/6598402149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598471734",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "総合福祉センター",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1098168,
+          35.981475
+        ]
+      },
+      "id": "node/6598471734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598471735",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "苅米公会堂",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1100005,
+          35.9834202
+        ]
+      },
+      "id": "node/6598471735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598471736",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "寺坂棚田第1駐車場",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1074749,
+          35.9874477
+        ]
+      },
+      "id": "node/6598471736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598507449",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "町民会館",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1033096,
+          35.9866443
+        ]
+      },
+      "id": "node/6598507449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6603230157",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "横瀬郵便局前",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1017945,
+          35.9863202
+        ]
+      },
+      "id": "node/6603230157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6603230158",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "札所9番",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1028449,
+          35.9838806
+        ]
+      },
+      "id": "node/6603230158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6603230159",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "和田河原",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1029104,
+          35.992316
+        ]
+      },
+      "id": "node/6603230159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6603230160",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "ホルモンきくや",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1053071,
+          35.9928209
+        ]
+      },
+      "id": "node/6603230160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6603311329",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "田端商店",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1053217,
+          35.9947135
+        ]
+      },
+      "id": "node/6603311329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6603311330",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "荒舩医院・なでしこ",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1095195,
+          36.0045627
+        ]
+      },
+      "id": "node/6603311330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6603311331",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "ヤオヨシ",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1085888,
+          36.0052341
+        ]
+      },
+      "id": "node/6603311331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6603311332",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "語歌橋バス停",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1037583,
+          35.9995174
+        ]
+      },
+      "id": "node/6603311332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6603311333",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "15区集落センター",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1047561,
+          36.0063677
+        ]
+      },
+      "id": "node/6603311333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6603381780",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "16区集落センター",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0992441,
+          35.9984421
+        ]
+      },
+      "id": "node/6603381780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6603381781",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "松田医院",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0973853,
+          35.990827
+        ]
+      },
+      "id": "node/6603381781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6603381782",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "荻原医院",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0964621,
+          35.989911
+        ]
+      },
+      "id": "node/6603381782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6604167584",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "東林寺",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0941968,
+          35.9848195
+        ]
+      },
+      "id": "node/6604167584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6604173986",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "御製碑前",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0909117,
+          35.9745802
+        ]
+      },
+      "id": "node/6604173986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6604173987",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "姿見山浄水場",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.091439,
+          35.9858812
+        ]
+      },
+      "id": "node/6604173987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6604173988",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "ウエルシア",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0945878,
+          35.991963
+        ]
+      },
+      "id": "node/6604173988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6604214281",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "いの整骨院",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0938915,
+          35.9924649
+        ]
+      },
+      "id": "node/6604214281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6604214282",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "ウニクス",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.088635,
+          35.9963193
+        ]
+      },
+      "id": "node/6604214282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6604214283",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "秩父市立病院",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0809659,
+          36.0021829
+        ]
+      },
+      "id": "node/6604214283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6829908258",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "秩父駅",
+        "operator": "横瀬町コミュニティバス ブコーさん号",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0856676,
+          35.9986299
+        ]
+      },
+      "id": "node/6829908258"
+    }
+  ]
+}
