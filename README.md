@@ -19,6 +19,11 @@
 * Webブラウザのみで閲覧・利用できるようにする
 * 毎年データの更新を行う（リポジトリは毎年 Fork する）
 
+
+## NEWS
+* 横瀬町 Area898 にて成果発表会を行いました。(2026/08/03)
+
+
 ## 基本データ構成
 * YOKOZE Atlas
   - [YOKOZE Spatial Data Infrastructure(YSDI)](https://github.com/furuhashilab/YOKOZEatlas2026/issues/4)
