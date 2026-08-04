@@ -21,7 +21,7 @@
 
 
 ## NEWS
-* 横瀬町 Area898 にて成果発表会を行いました。(2026/08/03)
+* [横瀬町 Area898 にて成果発表会を行いました。(2026/08/03)](https://github.com/furuhashilab/YOKOZEatlas2026/issues/24)
 
 
 ## 基本データ構成
