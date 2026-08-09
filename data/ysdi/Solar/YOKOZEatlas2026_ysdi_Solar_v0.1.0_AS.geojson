@@ -1,0 +1,3759 @@
+{
+  "type": "FeatureCollection",
+  "name": "yokoze_solar_panels",
+  "metadata": {
+    "title": "横瀬町 太陽光設備ポリゴン台帳",
+    "municipality": "横瀬町",
+    "main_data": true,
+    "generated_at": "2026-08-03T05:51:52+00:00",
+    "source": "OpenStreetMap via Overpass API",
+    "boundary_source": "OpenStreetMap administrative boundary via Nominatim",
+    "boundary_relation_id": 1768252,
+    "query_tags": [
+      "power=generator + generator:source=solar",
+      "power=plant + plant:source=solar",
+      "building=solar_panels",
+      "landuse=solar_panel"
+    ],
+    "feature_count": 73,
+    "total_area_m2": 20139.1,
+    "total_capacity_kw": 3625.04,
+    "total_annual_kwh": 3806292.0,
+    "notes": [
+      "OSMに登録された閉じたwayポリゴンのみを対象にしています。",
+      "横瀬町行政界ポリゴン内に重心があるポリゴンを採用しています。",
+      "計算値は簡易推計であり設備仕様や稼働状況を反映しません。"
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/1014235846",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1058242,
+              35.9916513
+            ],
+            [
+              139.1058117,
+              35.9916178
+            ],
+            [
+              139.1057093,
+              35.9916427
+            ],
+            [
+              139.1057217,
+              35.9916762
+            ],
+            [
+              139.1058242,
+              35.9916513
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1014235846",
+        "osm_type": "way",
+        "osm_id": 1014235846,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 37.52,
+        "calc_capacity_kw": 6.75,
+        "calc_annual_kwh": 7087.5,
+        "calc_peak_kw": 5.06,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1014235847",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1059145,
+              35.9916811
+            ],
+            [
+              139.1059016,
+              35.9916473
+            ],
+            [
+              139.1057258,
+              35.9916911
+            ],
+            [
+              139.1057387,
+              35.9917248
+            ],
+            [
+              139.1059145,
+              35.9916811
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1014235847",
+        "osm_type": "way",
+        "osm_id": 1014235847,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 65.15,
+        "calc_capacity_kw": 11.73,
+        "calc_annual_kwh": 12316.5,
+        "calc_peak_kw": 8.8,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1014235848",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.105934,
+              35.9917327
+            ],
+            [
+              139.1059211,
+              35.9916989
+            ],
+            [
+              139.1057453,
+              35.9917427
+            ],
+            [
+              139.1057581,
+              35.9917764
+            ],
+            [
+              139.105934,
+              35.9917327
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1014235848",
+        "osm_type": "way",
+        "osm_id": 1014235848,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 65.14,
+        "calc_capacity_kw": 11.73,
+        "calc_annual_kwh": 12316.5,
+        "calc_peak_kw": 8.8,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1014235849",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1059501,
+              35.9917796
+            ],
+            [
+              139.1059379,
+              35.9917465
+            ],
+            [
+              139.1057973,
+              35.9917805
+            ],
+            [
+              139.1058096,
+              35.9918136
+            ],
+            [
+              139.1059501,
+              35.9917796
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1014235849",
+        "osm_type": "way",
+        "osm_id": 1014235849,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 50.82,
+        "calc_capacity_kw": 9.15,
+        "calc_annual_kwh": 9607.5,
+        "calc_peak_kw": 6.86,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1014235850",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1059678,
+              35.9918289
+            ],
+            [
+              139.1059553,
+              35.9917968
+            ],
+            [
+              139.1058334,
+              35.9918279
+            ],
+            [
+              139.1058459,
+              35.99186
+            ],
+            [
+              139.1059678,
+              35.9918289
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1014235850",
+        "osm_type": "way",
+        "osm_id": 1014235850,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 43.13,
+        "calc_capacity_kw": 7.76,
+        "calc_annual_kwh": 8148.0,
+        "calc_peak_kw": 5.82,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1014235851",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1059135,
+              35.9918948
+            ],
+            [
+              139.1059021,
+              35.9918631
+            ],
+            [
+              139.1058495,
+              35.9918754
+            ],
+            [
+              139.1058609,
+              35.9919071
+            ],
+            [
+              139.1059135,
+              35.9918948
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1014235851",
+        "osm_type": "way",
+        "osm_id": 1014235851,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 18.12,
+        "calc_capacity_kw": 3.26,
+        "calc_annual_kwh": 3423.0,
+        "calc_peak_kw": 2.44,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1014235852",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1059193,
+              35.9918717
+            ],
+            [
+              139.1059293,
+              35.9918409
+            ],
+            [
+              139.1059364,
+              35.9918296
+            ],
+            [
+              139.105994,
+              35.9918149
+            ],
+            [
+              139.1060018,
+              35.9918092
+            ],
+            [
+              139.1058832,
+              35.9915626
+            ],
+            [
+              139.1058442,
+              35.99155
+            ],
+            [
+              139.1057177,
+              35.9915994
+            ],
+            [
+              139.1057011,
+              35.9916244
+            ],
+            [
+              139.1057841,
+              35.991839
+            ],
+            [
+              139.1057912,
+              35.9918423
+            ],
+            [
+              139.1058148,
+              35.9918398
+            ],
+            [
+              139.105821,
+              35.9918662
+            ],
+            [
+              139.1058535,
+              35.991879
+            ],
+            [
+              139.1058671,
+              35.991881
+            ],
+            [
+              139.1059193,
+              35.9918717
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1014235852",
+        "osm_type": "way",
+        "osm_id": 1014235852,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=plant + plant:source=solar",
+        "osm_tags": "plant:method=photovoltaic; plant:output:electricity=yes; plant:source=solar; power=plant",
+        "calc_area_m2": 603.58,
+        "calc_capacity_kw": 108.64,
+        "calc_annual_kwh": 114072.0,
+        "calc_peak_kw": 81.48,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056913",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1096703,
+              35.9913034
+            ],
+            [
+              139.1098381,
+              35.9913039
+            ],
+            [
+              139.1098383,
+              35.991268
+            ],
+            [
+              139.1096705,
+              35.9912676
+            ],
+            [
+              139.1096703,
+              35.9913034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056913",
+        "osm_type": "way",
+        "osm_id": 1039056913,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 60.32,
+        "calc_capacity_kw": 10.86,
+        "calc_annual_kwh": 11403.0,
+        "calc_peak_kw": 8.14,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056914",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1093218,
+              35.9912563
+            ],
+            [
+              139.1096707,
+              35.9912583
+            ],
+            [
+              139.109671,
+              35.991223
+            ],
+            [
+              139.1093221,
+              35.9912211
+            ],
+            [
+              139.1093218,
+              35.9912563
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056914",
+        "osm_type": "way",
+        "osm_id": 1039056914,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 123.32,
+        "calc_capacity_kw": 22.2,
+        "calc_annual_kwh": 23310.0,
+        "calc_peak_kw": 16.65,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056915",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.109337,
+              35.9912995
+            ],
+            [
+              139.1096667,
+              35.9913018
+            ],
+            [
+              139.1096671,
+              35.9912669
+            ],
+            [
+              139.1093373,
+              35.9912646
+            ],
+            [
+              139.109337,
+              35.9912995
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056915",
+        "osm_type": "way",
+        "osm_id": 1039056915,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.4,
+        "calc_capacity_kw": 20.77,
+        "calc_annual_kwh": 21808.5,
+        "calc_peak_kw": 15.58,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056916",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1093912,
+              35.9913419
+            ],
+            [
+              139.1097046,
+              35.9913438
+            ],
+            [
+              139.1097049,
+              35.99131
+            ],
+            [
+              139.1093915,
+              35.9913081
+            ],
+            [
+              139.1093912,
+              35.9913419
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056916",
+        "osm_type": "way",
+        "osm_id": 1039056916,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 106.22,
+        "calc_capacity_kw": 19.12,
+        "calc_annual_kwh": 20076.0,
+        "calc_peak_kw": 14.34,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056917",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1094353,
+              35.9913852
+            ],
+            [
+              139.1097487,
+              35.9913872
+            ],
+            [
+              139.109749,
+              35.9913534
+            ],
+            [
+              139.1094356,
+              35.9913515
+            ],
+            [
+              139.1094353,
+              35.9913852
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056917",
+        "osm_type": "way",
+        "osm_id": 1039056917,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 106.06,
+        "calc_capacity_kw": 19.09,
+        "calc_annual_kwh": 20044.5,
+        "calc_peak_kw": 14.32,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056918",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1095418,
+              35.9915115
+            ],
+            [
+              139.109868,
+              35.9915136
+            ],
+            [
+              139.1098683,
+              35.99148
+            ],
+            [
+              139.1095421,
+              35.9914779
+            ],
+            [
+              139.1095418,
+              35.9915115
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056918",
+        "osm_type": "way",
+        "osm_id": 1039056918,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 109.9,
+        "calc_capacity_kw": 19.78,
+        "calc_annual_kwh": 20769.0,
+        "calc_peak_kw": 14.84,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056919",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1096311,
+              35.9915577
+            ],
+            [
+              139.1099562,
+              35.9915591
+            ],
+            [
+              139.1099565,
+              35.9915249
+            ],
+            [
+              139.1096313,
+              35.9915235
+            ],
+            [
+              139.1096311,
+              35.9915577
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056919",
+        "osm_type": "way",
+        "osm_id": 1039056919,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 111.5,
+        "calc_capacity_kw": 20.07,
+        "calc_annual_kwh": 21073.5,
+        "calc_peak_kw": 15.05,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056920",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1094702,
+              35.9914275
+            ],
+            [
+              139.1098,
+              35.9914299
+            ],
+            [
+              139.1098003,
+              35.9913949
+            ],
+            [
+              139.1094706,
+              35.9913926
+            ],
+            [
+              139.1094702,
+              35.9914275
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056920",
+        "osm_type": "way",
+        "osm_id": 1039056920,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.56,
+        "calc_capacity_kw": 20.8,
+        "calc_annual_kwh": 21840.0,
+        "calc_peak_kw": 15.6,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056921",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1095,
+              35.9914698
+            ],
+            [
+              139.1098297,
+              35.9914722
+            ],
+            [
+              139.1098301,
+              35.9914372
+            ],
+            [
+              139.1095003,
+              35.9914349
+            ],
+            [
+              139.1095,
+              35.9914698
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056921",
+        "osm_type": "way",
+        "osm_id": 1039056921,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.56,
+        "calc_capacity_kw": 20.8,
+        "calc_annual_kwh": 21840.0,
+        "calc_peak_kw": 15.6,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056922",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1096405,
+              35.991599
+            ],
+            [
+              139.1099703,
+              35.9916014
+            ],
+            [
+              139.1099707,
+              35.9915664
+            ],
+            [
+              139.1096409,
+              35.9915641
+            ],
+            [
+              139.1096405,
+              35.991599
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056922",
+        "osm_type": "way",
+        "osm_id": 1039056922,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.58,
+        "calc_capacity_kw": 20.8,
+        "calc_annual_kwh": 21840.0,
+        "calc_peak_kw": 15.6,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056923",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1096527,
+              35.9916404
+            ],
+            [
+              139.1099825,
+              35.9916427
+            ],
+            [
+              139.1099829,
+              35.9916078
+            ],
+            [
+              139.1096531,
+              35.9916055
+            ],
+            [
+              139.1096527,
+              35.9916404
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056923",
+        "osm_type": "way",
+        "osm_id": 1039056923,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.41,
+        "calc_capacity_kw": 20.77,
+        "calc_annual_kwh": 21808.5,
+        "calc_peak_kw": 15.58,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056924",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1096634,
+              35.9916841
+            ],
+            [
+              139.1099932,
+              35.9916865
+            ],
+            [
+              139.1099936,
+              35.9916516
+            ],
+            [
+              139.1096638,
+              35.9916493
+            ],
+            [
+              139.1096634,
+              35.9916841
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056924",
+        "osm_type": "way",
+        "osm_id": 1039056924,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.25,
+        "calc_capacity_kw": 20.75,
+        "calc_annual_kwh": 21787.5,
+        "calc_peak_kw": 15.56,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056925",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1096717,
+              35.9917271
+            ],
+            [
+              139.1100015,
+              35.9917295
+            ],
+            [
+              139.1100018,
+              35.9916946
+            ],
+            [
+              139.109672,
+              35.9916923
+            ],
+            [
+              139.1096717,
+              35.9917271
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056925",
+        "osm_type": "way",
+        "osm_id": 1039056925,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.24,
+        "calc_capacity_kw": 20.74,
+        "calc_annual_kwh": 21777.0,
+        "calc_peak_kw": 15.55,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056926",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1096755,
+              35.9917685
+            ],
+            [
+              139.1100053,
+              35.9917709
+            ],
+            [
+              139.1100057,
+              35.991736
+            ],
+            [
+              139.1096759,
+              35.9917337
+            ],
+            [
+              139.1096755,
+              35.9917685
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056926",
+        "osm_type": "way",
+        "osm_id": 1039056926,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.25,
+        "calc_capacity_kw": 20.75,
+        "calc_annual_kwh": 21787.5,
+        "calc_peak_kw": 15.56,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056927",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1096694,
+              35.9918105
+            ],
+            [
+              139.1099992,
+              35.9918129
+            ],
+            [
+              139.1099995,
+              35.991778
+            ],
+            [
+              139.1096698,
+              35.9917757
+            ],
+            [
+              139.1096694,
+              35.9918105
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056927",
+        "osm_type": "way",
+        "osm_id": 1039056927,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.23,
+        "calc_capacity_kw": 20.74,
+        "calc_annual_kwh": 21777.0,
+        "calc_peak_kw": 15.55,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056928",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1096651,
+              35.991853
+            ],
+            [
+              139.1099949,
+              35.9918554
+            ],
+            [
+              139.1099953,
+              35.9918205
+            ],
+            [
+              139.1096655,
+              35.9918182
+            ],
+            [
+              139.1096651,
+              35.991853
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056928",
+        "osm_type": "way",
+        "osm_id": 1039056928,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.25,
+        "calc_capacity_kw": 20.75,
+        "calc_annual_kwh": 21787.5,
+        "calc_peak_kw": 15.56,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056929",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1097311,
+              35.9918956
+            ],
+            [
+              139.1100609,
+              35.991898
+            ],
+            [
+              139.1100613,
+              35.9918631
+            ],
+            [
+              139.1097315,
+              35.9918608
+            ],
+            [
+              139.1097311,
+              35.9918956
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056929",
+        "osm_type": "way",
+        "osm_id": 1039056929,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.25,
+        "calc_capacity_kw": 20.75,
+        "calc_annual_kwh": 21787.5,
+        "calc_peak_kw": 15.56,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056930",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1102024,
+              35.9916883
+            ],
+            [
+              139.1105322,
+              35.9916906
+            ],
+            [
+              139.1105326,
+              35.9916557
+            ],
+            [
+              139.1102028,
+              35.9916534
+            ],
+            [
+              139.1102024,
+              35.9916883
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056930",
+        "osm_type": "way",
+        "osm_id": 1039056930,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.42,
+        "calc_capacity_kw": 20.78,
+        "calc_annual_kwh": 21819.0,
+        "calc_peak_kw": 15.59,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056931",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1102067,
+              35.9916463
+            ],
+            [
+              139.1105365,
+              35.9916487
+            ],
+            [
+              139.1105369,
+              35.9916138
+            ],
+            [
+              139.1102071,
+              35.9916114
+            ],
+            [
+              139.1102067,
+              35.9916463
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056931",
+        "osm_type": "way",
+        "osm_id": 1039056931,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.41,
+        "calc_capacity_kw": 20.77,
+        "calc_annual_kwh": 21808.5,
+        "calc_peak_kw": 15.58,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056932",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1100911,
+              35.9916037
+            ],
+            [
+              139.1104515,
+              35.9916038
+            ],
+            [
+              139.1104515,
+              35.9915686
+            ],
+            [
+              139.1100911,
+              35.9915686
+            ],
+            [
+              139.1100911,
+              35.9916037
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056932",
+        "osm_type": "way",
+        "osm_id": 1039056932,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 127.02,
+        "calc_capacity_kw": 22.86,
+        "calc_annual_kwh": 24003.0,
+        "calc_peak_kw": 17.14,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056933",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1098778,
+              35.9915165
+            ],
+            [
+              139.1102584,
+              35.9915169
+            ],
+            [
+              139.1102584,
+              35.9914815
+            ],
+            [
+              139.1098779,
+              35.9914812
+            ],
+            [
+              139.1098778,
+              35.9915165
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056933",
+        "osm_type": "way",
+        "osm_id": 1039056933,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 134.89,
+        "calc_capacity_kw": 24.28,
+        "calc_annual_kwh": 25494.0,
+        "calc_peak_kw": 18.21,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056934",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1099642,
+              35.99156
+            ],
+            [
+              139.1103448,
+              35.9915604
+            ],
+            [
+              139.1103448,
+              35.991525
+            ],
+            [
+              139.1099643,
+              35.9915247
+            ],
+            [
+              139.1099642,
+              35.99156
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056934",
+        "osm_type": "way",
+        "osm_id": 1039056934,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 134.88,
+        "calc_capacity_kw": 24.28,
+        "calc_annual_kwh": 25494.0,
+        "calc_peak_kw": 18.21,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056935",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1097135,
+              35.991346
+            ],
+            [
+              139.1099456,
+              35.9913436
+            ],
+            [
+              139.109945,
+              35.9913078
+            ],
+            [
+              139.1097129,
+              35.9913103
+            ],
+            [
+              139.1097135,
+              35.991346
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056935",
+        "osm_type": "way",
+        "osm_id": 1039056935,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 83.21,
+        "calc_capacity_kw": 14.98,
+        "calc_annual_kwh": 15729.0,
+        "calc_peak_kw": 11.23,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056936",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1097639,
+              35.9913866
+            ],
+            [
+              139.1100201,
+              35.9913871
+            ],
+            [
+              139.1100202,
+              35.9913533
+            ],
+            [
+              139.109764,
+              35.9913529
+            ],
+            [
+              139.1097639,
+              35.9913866
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056936",
+        "osm_type": "way",
+        "osm_id": 1039056936,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 86.7,
+        "calc_capacity_kw": 15.61,
+        "calc_annual_kwh": 16390.5,
+        "calc_peak_kw": 11.71,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056937",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1098043,
+              35.9914312
+            ],
+            [
+              139.1100793,
+              35.9914303
+            ],
+            [
+              139.1100791,
+              35.9913951
+            ],
+            [
+              139.1098041,
+              35.991396
+            ],
+            [
+              139.1098043,
+              35.9914312
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056937",
+        "osm_type": "way",
+        "osm_id": 1039056937,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 97.06,
+        "calc_capacity_kw": 17.47,
+        "calc_annual_kwh": 18343.5,
+        "calc_peak_kw": 13.1,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056938",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1098337,
+              35.9914737
+            ],
+            [
+              139.1100718,
+              35.9914724
+            ],
+            [
+              139.1100715,
+              35.9914361
+            ],
+            [
+              139.1098334,
+              35.9914375
+            ],
+            [
+              139.1098337,
+              35.9914737
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056938",
+        "osm_type": "way",
+        "osm_id": 1039056938,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 86.55,
+        "calc_capacity_kw": 15.58,
+        "calc_annual_kwh": 16359.0,
+        "calc_peak_kw": 11.69,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056939",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1099767,
+              35.9916013
+            ],
+            [
+              139.1100814,
+              35.9916018
+            ],
+            [
+              139.1100816,
+              35.9915661
+            ],
+            [
+              139.1099769,
+              35.9915656
+            ],
+            [
+              139.1099767,
+              35.9916013
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056939",
+        "osm_type": "way",
+        "osm_id": 1039056939,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 37.48,
+        "calc_capacity_kw": 6.75,
+        "calc_annual_kwh": 7087.5,
+        "calc_peak_kw": 5.06,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039056940",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1099877,
+              35.9916438
+            ],
+            [
+              139.1101996,
+              35.9916438
+            ],
+            [
+              139.1101996,
+              35.991608
+            ],
+            [
+              139.1099877,
+              35.991608
+            ],
+            [
+              139.1099877,
+              35.9916438
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039056940",
+        "osm_type": "way",
+        "osm_id": 1039056940,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 76.05,
+        "calc_capacity_kw": 13.69,
+        "calc_annual_kwh": 14374.5,
+        "calc_peak_kw": 10.27,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503751",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1102041,
+              35.9917297
+            ],
+            [
+              139.1105339,
+              35.991732
+            ],
+            [
+              139.1105343,
+              35.9916971
+            ],
+            [
+              139.1102045,
+              35.9916948
+            ],
+            [
+              139.1102041,
+              35.9917297
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503751",
+        "osm_type": "way",
+        "osm_id": 1039503751,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.41,
+        "calc_capacity_kw": 20.77,
+        "calc_annual_kwh": 21808.5,
+        "calc_peak_kw": 15.58,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503752",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1101964,
+              35.991772
+            ],
+            [
+              139.1105262,
+              35.9917743
+            ],
+            [
+              139.1105266,
+              35.9917394
+            ],
+            [
+              139.1101968,
+              35.9917371
+            ],
+            [
+              139.1101964,
+              35.991772
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503752",
+        "osm_type": "way",
+        "osm_id": 1039503752,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.42,
+        "calc_capacity_kw": 20.78,
+        "calc_annual_kwh": 21819.0,
+        "calc_peak_kw": 15.59,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503753",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1102108,
+              35.9918183
+            ],
+            [
+              139.1105406,
+              35.9918206
+            ],
+            [
+              139.110541,
+              35.9917857
+            ],
+            [
+              139.1102112,
+              35.9917834
+            ],
+            [
+              139.1102108,
+              35.9918183
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503753",
+        "osm_type": "way",
+        "osm_id": 1039503753,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.42,
+        "calc_capacity_kw": 20.78,
+        "calc_annual_kwh": 21819.0,
+        "calc_peak_kw": 15.59,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503754",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1102058,
+              35.9918632
+            ],
+            [
+              139.1105356,
+              35.9918655
+            ],
+            [
+              139.110536,
+              35.9918306
+            ],
+            [
+              139.1102062,
+              35.9918283
+            ],
+            [
+              139.1102058,
+              35.9918632
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503754",
+        "osm_type": "way",
+        "osm_id": 1039503754,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.41,
+        "calc_capacity_kw": 20.77,
+        "calc_annual_kwh": 21808.5,
+        "calc_peak_kw": 15.58,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503755",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1102148,
+              35.991908
+            ],
+            [
+              139.1105446,
+              35.9919103
+            ],
+            [
+              139.110545,
+              35.9918754
+            ],
+            [
+              139.1102152,
+              35.9918731
+            ],
+            [
+              139.1102148,
+              35.991908
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503755",
+        "osm_type": "way",
+        "osm_id": 1039503755,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.42,
+        "calc_capacity_kw": 20.78,
+        "calc_annual_kwh": 21819.0,
+        "calc_peak_kw": 15.59,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503756",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1102089,
+              35.9919483
+            ],
+            [
+              139.1105387,
+              35.9919506
+            ],
+            [
+              139.1105391,
+              35.9919157
+            ],
+            [
+              139.1102093,
+              35.9919134
+            ],
+            [
+              139.1102089,
+              35.9919483
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503756",
+        "osm_type": "way",
+        "osm_id": 1039503756,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.42,
+        "calc_capacity_kw": 20.78,
+        "calc_annual_kwh": 21819.0,
+        "calc_peak_kw": 15.59,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503757",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1102064,
+              35.9919868
+            ],
+            [
+              139.1105362,
+              35.9919891
+            ],
+            [
+              139.1105366,
+              35.9919542
+            ],
+            [
+              139.1102068,
+              35.9919519
+            ],
+            [
+              139.1102064,
+              35.9919868
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503757",
+        "osm_type": "way",
+        "osm_id": 1039503757,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.41,
+        "calc_capacity_kw": 20.77,
+        "calc_annual_kwh": 21808.5,
+        "calc_peak_kw": 15.58,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503758",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.109893,
+              35.991943
+            ],
+            [
+              139.1101992,
+              35.9919459
+            ],
+            [
+              139.1101997,
+              35.9919103
+            ],
+            [
+              139.1098935,
+              35.9919073
+            ],
+            [
+              139.109893,
+              35.991943
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503758",
+        "osm_type": "way",
+        "osm_id": 1039503758,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 109.46,
+        "calc_capacity_kw": 19.7,
+        "calc_annual_kwh": 20685.0,
+        "calc_peak_kw": 14.77,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503759",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1099982,
+              35.9916883
+            ],
+            [
+              139.1101936,
+              35.9916881
+            ],
+            [
+              139.1101935,
+              35.9916525
+            ],
+            [
+              139.1099981,
+              35.9916527
+            ],
+            [
+              139.1099982,
+              35.9916883
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503759",
+        "osm_type": "way",
+        "osm_id": 1039503759,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 69.75,
+        "calc_capacity_kw": 12.55,
+        "calc_annual_kwh": 13177.5,
+        "calc_peak_kw": 9.41,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503760",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1100065,
+              35.99173
+            ],
+            [
+              139.1102019,
+              35.9917298
+            ],
+            [
+              139.1102019,
+              35.9916942
+            ],
+            [
+              139.1100064,
+              35.9916944
+            ],
+            [
+              139.1100065,
+              35.99173
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503760",
+        "osm_type": "way",
+        "osm_id": 1039503760,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 69.76,
+        "calc_capacity_kw": 12.56,
+        "calc_annual_kwh": 13188.0,
+        "calc_peak_kw": 9.42,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503761",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.110009,
+              35.9917729
+            ],
+            [
+              139.1101883,
+              35.9917729
+            ],
+            [
+              139.1101883,
+              35.9917371
+            ],
+            [
+              139.110009,
+              35.9917372
+            ],
+            [
+              139.110009,
+              35.9917729
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503761",
+        "osm_type": "way",
+        "osm_id": 1039503761,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 64.27,
+        "calc_capacity_kw": 11.57,
+        "calc_annual_kwh": 12148.5,
+        "calc_peak_kw": 8.68,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503762",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1100047,
+              35.991814
+            ],
+            [
+              139.1102001,
+              35.9918137
+            ],
+            [
+              139.1102001,
+              35.9917782
+            ],
+            [
+              139.1100047,
+              35.9917784
+            ],
+            [
+              139.1100047,
+              35.991814
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503762",
+        "osm_type": "way",
+        "osm_id": 1039503762,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 69.65,
+        "calc_capacity_kw": 12.54,
+        "calc_annual_kwh": 13167.0,
+        "calc_peak_kw": 9.4,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503763",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1100027,
+              35.9918589
+            ],
+            [
+              139.1101981,
+              35.9918586
+            ],
+            [
+              139.110198,
+              35.991823
+            ],
+            [
+              139.1100026,
+              35.9918232
+            ],
+            [
+              139.1100027,
+              35.9918589
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503763",
+        "osm_type": "way",
+        "osm_id": 1039503763,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 69.85,
+        "calc_capacity_kw": 12.57,
+        "calc_annual_kwh": 13198.5,
+        "calc_peak_kw": 9.43,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503764",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1100652,
+              35.991903
+            ],
+            [
+              139.1102077,
+              35.9919051
+            ],
+            [
+              139.1102086,
+              35.9918685
+            ],
+            [
+              139.110066,
+              35.9918664
+            ],
+            [
+              139.1100652,
+              35.991903
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503764",
+        "osm_type": "way",
+        "osm_id": 1039503764,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 52.34,
+        "calc_capacity_kw": 9.42,
+        "calc_annual_kwh": 9891.0,
+        "calc_peak_kw": 7.06,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503765",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1099461,
+              35.9919824
+            ],
+            [
+              139.1102006,
+              35.9919852
+            ],
+            [
+              139.1102012,
+              35.9919499
+            ],
+            [
+              139.1099467,
+              35.991947
+            ],
+            [
+              139.1099461,
+              35.9919824
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503765",
+        "osm_type": "way",
+        "osm_id": 1039503765,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 90.22,
+        "calc_capacity_kw": 16.24,
+        "calc_annual_kwh": 17052.0,
+        "calc_peak_kw": 12.18,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503766",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1102055,
+              35.9920288
+            ],
+            [
+              139.1105353,
+              35.9920311
+            ],
+            [
+              139.1105357,
+              35.9919962
+            ],
+            [
+              139.1102059,
+              35.9919939
+            ],
+            [
+              139.1102055,
+              35.9920288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503766",
+        "osm_type": "way",
+        "osm_id": 1039503766,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.41,
+        "calc_capacity_kw": 20.77,
+        "calc_annual_kwh": 21808.5,
+        "calc_peak_kw": 15.58,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503767",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1102067,
+              35.9920694
+            ],
+            [
+              139.1105365,
+              35.9920717
+            ],
+            [
+              139.1105369,
+              35.9920368
+            ],
+            [
+              139.1102071,
+              35.9920345
+            ],
+            [
+              139.1102067,
+              35.9920694
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503767",
+        "osm_type": "way",
+        "osm_id": 1039503767,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.41,
+        "calc_capacity_kw": 20.77,
+        "calc_annual_kwh": 21808.5,
+        "calc_peak_kw": 15.58,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503768",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1102066,
+              35.9921088
+            ],
+            [
+              139.1105364,
+              35.9921111
+            ],
+            [
+              139.1105368,
+              35.9920762
+            ],
+            [
+              139.110207,
+              35.9920739
+            ],
+            [
+              139.1102066,
+              35.9921088
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503768",
+        "osm_type": "way",
+        "osm_id": 1039503768,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 115.41,
+        "calc_capacity_kw": 20.77,
+        "calc_annual_kwh": 21808.5,
+        "calc_peak_kw": 15.58,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503769",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1099456,
+              35.9920243
+            ],
+            [
+              139.1102001,
+              35.9920272
+            ],
+            [
+              139.1102007,
+              35.9919918
+            ],
+            [
+              139.1099462,
+              35.9919889
+            ],
+            [
+              139.1099456,
+              35.9920243
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503769",
+        "osm_type": "way",
+        "osm_id": 1039503769,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 90.35,
+        "calc_capacity_kw": 16.26,
+        "calc_annual_kwh": 17073.0,
+        "calc_peak_kw": 12.2,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1039503770",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1099449,
+              35.9920661
+            ],
+            [
+              139.1101995,
+              35.992069
+            ],
+            [
+              139.1102001,
+              35.9920336
+            ],
+            [
+              139.1099455,
+              35.9920307
+            ],
+            [
+              139.1099449,
+              35.9920661
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1039503770",
+        "osm_type": "way",
+        "osm_id": 1039503770,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 90.39,
+        "calc_capacity_kw": 16.27,
+        "calc_annual_kwh": 17083.5,
+        "calc_peak_kw": 12.2,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1147745627",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1127088,
+              35.992677
+            ],
+            [
+              139.112715,
+              35.9926334
+            ],
+            [
+              139.1123722,
+              35.9926015
+            ],
+            [
+              139.112366,
+              35.9926452
+            ],
+            [
+              139.1127088,
+              35.992677
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1147745627",
+        "osm_type": "way",
+        "osm_id": 1147745627,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 152.01,
+        "calc_capacity_kw": 27.36,
+        "calc_annual_kwh": 28728.0,
+        "calc_peak_kw": 20.52,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1147745628",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1126825,
+              35.9927294
+            ],
+            [
+              139.1126885,
+              35.9926867
+            ],
+            [
+              139.1123147,
+              35.9926526
+            ],
+            [
+              139.1123088,
+              35.9926952
+            ],
+            [
+              139.1126825,
+              35.9927294
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1147745628",
+        "osm_type": "way",
+        "osm_id": 1147745628,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 161.86,
+        "calc_capacity_kw": 29.13,
+        "calc_annual_kwh": 30586.5,
+        "calc_peak_kw": 21.85,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1316734409",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1289576,
+              35.9771626
+            ],
+            [
+              139.1291975,
+              35.9771751
+            ],
+            [
+              139.1294201,
+              35.9772811
+            ],
+            [
+              139.1297745,
+              35.9773153
+            ],
+            [
+              139.1297956,
+              35.9775791
+            ],
+            [
+              139.1297351,
+              35.9777192
+            ],
+            [
+              139.1300146,
+              35.9777277
+            ],
+            [
+              139.1300128,
+              35.9781207
+            ],
+            [
+              139.1297916,
+              35.9785532
+            ],
+            [
+              139.1295848,
+              35.9785524
+            ],
+            [
+              139.1292571,
+              35.9783923
+            ],
+            [
+              139.1288309,
+              35.9783851
+            ],
+            [
+              139.1289398,
+              35.977851
+            ],
+            [
+              139.128946,
+              35.9776487
+            ],
+            [
+              139.1289442,
+              35.9772547
+            ],
+            [
+              139.1289576,
+              35.9771626
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/1316734409",
+        "osm_type": "way",
+        "osm_id": 1316734409,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=plant + plant:source=solar",
+        "osm_tags": "name=芦ヶ久保太陽光発電所; plant:source=solar; power=plant",
+        "calc_area_m2": 11985.32,
+        "calc_capacity_kw": 2157.36,
+        "calc_annual_kwh": 2265228.0,
+        "calc_peak_kw": 1618.02,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/698536434",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.110161,
+              35.9760897
+            ],
+            [
+              139.1100971,
+              35.9760156
+            ],
+            [
+              139.1101432,
+              35.9759896
+            ],
+            [
+              139.1101345,
+              35.9759794
+            ],
+            [
+              139.1101955,
+              35.975945
+            ],
+            [
+              139.11021,
+              35.9759368
+            ],
+            [
+              139.1102826,
+              35.976021
+            ],
+            [
+              139.110161,
+              35.9760897
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/698536434",
+        "osm_type": "way",
+        "osm_id": 698536434,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 145.77,
+        "calc_capacity_kw": 26.24,
+        "calc_annual_kwh": 27552.0,
+        "calc_peak_kw": 19.68,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/698541697",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1007416,
+              35.9959717
+            ],
+            [
+              139.1007549,
+              35.9959208
+            ],
+            [
+              139.1008562,
+              35.9959382
+            ],
+            [
+              139.1008429,
+              35.995989
+            ],
+            [
+              139.1007416,
+              35.9959717
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/698541697",
+        "osm_type": "way",
+        "osm_id": 698541697,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 53.95,
+        "calc_capacity_kw": 9.71,
+        "calc_annual_kwh": 10195.5,
+        "calc_peak_kw": 7.28,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/698541698",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.100892,
+              35.996
+            ],
+            [
+              139.1009052,
+              35.9959523
+            ],
+            [
+              139.1009923,
+              35.995968
+            ],
+            [
+              139.1009791,
+              35.9960158
+            ],
+            [
+              139.100892,
+              35.996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/698541698",
+        "osm_type": "way",
+        "osm_id": 698541698,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 43.78,
+        "calc_capacity_kw": 7.88,
+        "calc_annual_kwh": 8274.0,
+        "calc_peak_kw": 5.91,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/698542707",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1008119,
+              36.0011563
+            ],
+            [
+              139.1008179,
+              36.001118
+            ],
+            [
+              139.1010365,
+              36.0011402
+            ],
+            [
+              139.1010305,
+              36.0011784
+            ],
+            [
+              139.1008119,
+              36.0011563
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/698542707",
+        "osm_type": "way",
+        "osm_id": 698542707,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 85.15,
+        "calc_capacity_kw": 15.33,
+        "calc_annual_kwh": 16096.5,
+        "calc_peak_kw": 11.5,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/698542708",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1007647,
+              36.001087
+            ],
+            [
+              139.1007713,
+              36.0010431
+            ],
+            [
+              139.1011007,
+              36.0010754
+            ],
+            [
+              139.1010941,
+              36.0011193
+            ],
+            [
+              139.1007647,
+              36.001087
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/698542708",
+        "osm_type": "way",
+        "osm_id": 698542708,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 147.11,
+        "calc_capacity_kw": 26.48,
+        "calc_annual_kwh": 27804.0,
+        "calc_peak_kw": 19.86,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/698542709",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.100736,
+              36.0010133
+            ],
+            [
+              139.1007413,
+              36.0009755
+            ],
+            [
+              139.1010757,
+              36.0010063
+            ],
+            [
+              139.1010704,
+              36.0010442
+            ],
+            [
+              139.100736,
+              36.0010133
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/698542709",
+        "osm_type": "way",
+        "osm_id": 698542709,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 128.53,
+        "calc_capacity_kw": 23.14,
+        "calc_annual_kwh": 24297.0,
+        "calc_peak_kw": 17.36,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/698542710",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1016145,
+              36.0013138
+            ],
+            [
+              139.1016024,
+              36.0013236
+            ],
+            [
+              139.1015842,
+              36.001322
+            ],
+            [
+              139.1015579,
+              36.0013514
+            ],
+            [
+              139.101479,
+              36.001353
+            ],
+            [
+              139.1013314,
+              36.0012222
+            ],
+            [
+              139.1013355,
+              36.00116
+            ],
+            [
+              139.1013597,
+              36.0011551
+            ],
+            [
+              139.101384,
+              36.0011354
+            ],
+            [
+              139.1014305,
+              36.0011404
+            ],
+            [
+              139.1014507,
+              36.0011175
+            ],
+            [
+              139.1015114,
+              36.001124
+            ],
+            [
+              139.1015417,
+              36.0011109
+            ],
+            [
+              139.1016622,
+              36.0011133
+            ],
+            [
+              139.1016561,
+              36.0013146
+            ],
+            [
+              139.1016145,
+              36.0013138
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/698542710",
+        "osm_type": "way",
+        "osm_id": 698542710,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 618.17,
+        "calc_capacity_kw": 111.27,
+        "calc_annual_kwh": 116833.5,
+        "calc_peak_kw": 83.45,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/698543838",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.0999429,
+              35.9840363
+            ],
+            [
+              139.099908,
+              35.9839357
+            ],
+            [
+              139.0999829,
+              35.9839187
+            ],
+            [
+              139.1000178,
+              35.9840193
+            ],
+            [
+              139.0999429,
+              35.9840363
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/698543838",
+        "osm_type": "way",
+        "osm_id": 698543838,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 81.5,
+        "calc_capacity_kw": 14.67,
+        "calc_annual_kwh": 15403.5,
+        "calc_peak_kw": 11.0,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/698543850",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1002097,
+              35.9843346
+            ],
+            [
+              139.1002292,
+              35.9842936
+            ],
+            [
+              139.1002847,
+              35.9843109
+            ],
+            [
+              139.1002652,
+              35.9843519
+            ],
+            [
+              139.1002097,
+              35.9843346
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/698543850",
+        "osm_type": "way",
+        "osm_id": 698543850,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 26.21,
+        "calc_capacity_kw": 4.72,
+        "calc_annual_kwh": 4956.0,
+        "calc_peak_kw": 3.54,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/698553114",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.0974883,
+              35.989656
+            ],
+            [
+              139.0974744,
+              35.9896316
+            ],
+            [
+              139.0975251,
+              35.9896132
+            ],
+            [
+              139.0975361,
+              35.9896376
+            ],
+            [
+              139.0974883,
+              35.989656
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/698553114",
+        "osm_type": "way",
+        "osm_id": 698553114,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 14.35,
+        "calc_capacity_kw": 2.58,
+        "calc_annual_kwh": 2709.0,
+        "calc_peak_kw": 1.94,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/698555586",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1055293,
+              36.0068543
+            ],
+            [
+              139.1055579,
+              36.0068031
+            ],
+            [
+              139.1056209,
+              36.0068262
+            ],
+            [
+              139.1055922,
+              36.0068774
+            ],
+            [
+              139.1055293,
+              36.0068543
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/698555586",
+        "osm_type": "way",
+        "osm_id": 698555586,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 38.95,
+        "calc_capacity_kw": 7.01,
+        "calc_annual_kwh": 7360.5,
+        "calc_peak_kw": 5.26,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/698555587",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1056001,
+              36.0069033
+            ],
+            [
+              139.105624,
+              36.0068651
+            ],
+            [
+              139.1056699,
+              36.0068838
+            ],
+            [
+              139.105646,
+              36.0069221
+            ],
+            [
+              139.1056001,
+              36.0069033
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/698555587",
+        "osm_type": "way",
+        "osm_id": 698555587,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 22.09,
+        "calc_capacity_kw": 3.98,
+        "calc_annual_kwh": 4179.0,
+        "calc_peak_kw": 2.98,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/840263569",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1048741,
+              35.9836148
+            ],
+            [
+              139.1048028,
+              35.9834444
+            ],
+            [
+              139.1046766,
+              35.983479
+            ],
+            [
+              139.1046627,
+              35.9834457
+            ],
+            [
+              139.1046086,
+              35.9834606
+            ],
+            [
+              139.1046938,
+              35.9836642
+            ],
+            [
+              139.1048741,
+              35.9836148
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/840263569",
+        "osm_type": "way",
+        "osm_id": 840263569,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "building:levels=2; generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; height=3; power=generator",
+        "calc_area_m2": 363.49,
+        "calc_capacity_kw": 65.43,
+        "calc_annual_kwh": 68701.5,
+        "calc_peak_kw": 49.07,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/840281606",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.0978294,
+              35.9857733
+            ],
+            [
+              139.0978091,
+              35.9857625
+            ],
+            [
+              139.0977847,
+              35.9857923
+            ],
+            [
+              139.097805,
+              35.9858032
+            ],
+            [
+              139.0978294,
+              35.9857733
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/840281606",
+        "osm_type": "way",
+        "osm_id": 840281606,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; layer=2; power=generator",
+        "calc_area_m2": 8.73,
+        "calc_capacity_kw": 1.57,
+        "calc_annual_kwh": 1648.5,
+        "calc_peak_kw": 1.18,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/960956394",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.1033804,
+              35.9872448
+            ],
+            [
+              139.1035536,
+              35.9872509
+            ],
+            [
+              139.1035619,
+              35.9870972
+            ],
+            [
+              139.1033887,
+              35.987091
+            ],
+            [
+              139.1033804,
+              35.9872448
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/960956394",
+        "osm_type": "way",
+        "osm_id": 960956394,
+        "municipality": "横瀬町",
+        "source_dataset": "OpenStreetMap via Overpass API",
+        "boundary_filter": "OSM administrative relation 1768252 / area 3601768252",
+        "generated_at": "2026-08-03T05:51:52+00:00",
+        "matched_query_tags": "power=generator + generator:source=solar",
+        "osm_tags": "generator:method=photovoltaic; generator:output:electricity=yes; generator:source=solar; generator:type=solar_photovoltaic_panel; power=generator",
+        "calc_area_m2": 267.52,
+        "calc_capacity_kw": 48.15,
+        "calc_annual_kwh": 50557.5,
+        "calc_peak_kw": 36.11,
+        "capacity_formula": "area_m2 * 0.18",
+        "annual_generation_formula": "capacity_kw * 1050",
+        "peak_output_formula": "capacity_kw * 0.75"
+      }
+    }
+  ]
+}
