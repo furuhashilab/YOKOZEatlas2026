@@ -15,7 +15,7 @@
 
 
 ## [基本方針](https://github.com/furuhashilab/YOKOZEatlas2026/issues/16)
-* 収集・再配布するのはすべてオープンデータのみとする
+* 収集・再配布するのはすべて [オープンデータ](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%81%AE%E5%AE%9A%E7%BE%A9) のみとする
 * Webブラウザのみで閲覧・利用できるようにする（可視化サイトは、メンバーが各自のGitHubアカウントで実装し、[Issues](https://github.com/furuhashilab/YOKOZEatlas2026/issues) に報告する）
 * 毎年データの更新を行う（このリポジトリは毎年 Fork する → 次は **YOKOZEatlas2027** と命名予定）
 * その他詳細についてはこの[Issue](https://github.com/furuhashilab/YOKOZEatlas2026/issues/16)で適宜更新
