@@ -29,6 +29,7 @@
 * YOKOZE Atlas
   - [YOKOZE Spatial Data Infrastructure(YSDI)](https://github.com/furuhashilab/YOKOZEatlas2026/issues/4)
   - [MORIGAWA 流域 Maps](https://github.com/furuhashilab/YOKOZEatlas2026/issues/3)
+    - [荒川流域圏構想フィールドワーク202609](https://github.com/mapconcierge/YOKOZEatlas2026_ArakawaRiverBasinFieldwork202609)
   - [DRONEBIRD 防災減災 Maps](https://github.com/furuhashilab/YOKOZEatlas2026/issues/5)
   - [History 横瀬町過去アーカイブズ](https://github.com/furuhashilab/YOKOZEatlas2026/issues/21)
 
